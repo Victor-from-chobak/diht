@@ -1,6 +1,6 @@
 #!/bin/bash
-cp -R na./ras
-find ./ras -type f -not -name ka -exec rm
-tar -cf ta./ras
+cp -R $1 ./$3
+find ./ras -type f -not -name $2 -exec rm
+tar -cf $4 ./$3
 echo done
 
